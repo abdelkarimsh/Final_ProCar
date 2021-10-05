@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProCar.Web", "ProCar.Web\ProCar.Web.csproj", "{8D2A1FCA-0E15-4BB0-B3A8-034CF2635336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProCar.Core", "ProCar.Core\ProCar.Core.csproj", "{F608EFD3-4FA1-4503-B624-BEF72EB05877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProCar.Data", "ProCar.Data\ProCar.Data.csproj", "{7A70E1C2-760A-4D20-B7E3-8CB6F993C59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProCar.Infrastructure", "ProCar.Infrastructure\ProCar.Infrastructure.csproj", "{1D933863-2ED5-4F0C-9430-6D4C898A7A20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D2A1FCA-0E15-4BB0-B3A8-034CF2635336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2A1FCA-0E15-4BB0-B3A8-034CF2635336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2A1FCA-0E15-4BB0-B3A8-034CF2635336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2A1FCA-0E15-4BB0-B3A8-034CF2635336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F608EFD3-4FA1-4503-B624-BEF72EB05877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F608EFD3-4FA1-4503-B624-BEF72EB05877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F608EFD3-4FA1-4503-B624-BEF72EB05877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F608EFD3-4FA1-4503-B624-BEF72EB05877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A70E1C2-760A-4D20-B7E3-8CB6F993C59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A70E1C2-760A-4D20-B7E3-8CB6F993C59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A70E1C2-760A-4D20-B7E3-8CB6F993C59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A70E1C2-760A-4D20-B7E3-8CB6F993C59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D933863-2ED5-4F0C-9430-6D4C898A7A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D933863-2ED5-4F0C-9430-6D4C898A7A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D933863-2ED5-4F0C-9430-6D4C898A7A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D933863-2ED5-4F0C-9430-6D4C898A7A20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BA1A116-3795-49BA-A010-5A80266643C7}
+	EndGlobalSection
+EndGlobal
