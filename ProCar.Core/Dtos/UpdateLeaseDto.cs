@@ -1,4 +1,5 @@
-﻿using ProCar.Core.Dtos.Helpers;
+﻿using Microsoft.AspNetCore.Http;
+using ProCar.Core.Dtos.Helpers;
 using ProCar.Core.Enums;
 using System;
 using System.Collections.Generic;
@@ -15,18 +16,25 @@ namespace ProCar.Core.Dtos
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "تاريخ بداية عقد الايجار ")]
         public DateTime StartRent { get; set; }
+
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "تاريخ نهاية عقد الايجار ")]
         public DateTime EndRent { get; set; }
-        //[Required(ErrorMessage = "هذاالحقل مطلوب")]
-        //[Display(Name = "الزبون")]
-        //public int CustomerId { get; set; }
+
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "السيارة")]
         public int CarId { get; set; }
+
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
-        [Display(Name = "الموظف")]
-        public string EmployeeId { get; set; }
+        [Display(Name = "الزبون")]
+        public string UserId { get; set; }
+
+        [Required(ErrorMessage = "هذا الحقل مطلوب")]
+        [Display(Name = "صورة الضمان")]
+        public IFormFile LegaldocumentImeg { get; set; }
+
+
+
 
     }
 }

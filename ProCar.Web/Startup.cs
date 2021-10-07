@@ -13,6 +13,7 @@ using ProCar.Infrastructure.AutoMapper;
 using ProCar.Infrastructure.Services;
 using ProCar.Infrastructure.Services.car;
 using ProCar.Infrastructure.Services.Lease;
+using ProCar.Infrastructure.Services.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,20 +38,34 @@ namespace ProCar.Web
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddIdentity<User, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false
-              )
-                  .AddEntityFrameworkStores<ProCarDbContext>()
-                  .AddDefaultTokenProviders().
-                  AddDefaultUI();
+
+            services.AddIdentity<User, IdentityRole>(config =>
+            {
+                config.User.RequireUniqueEmail = true;
+                config.Password.RequireDigit = false;
+                config.Password.RequiredLength = 6;
+                config.Password.RequireLowercase = false;
+                config.Password.RequireNonAlphanumeric = false;
+                config.Password.RequireUppercase = false;
+                config.SignIn.RequireConfirmedEmail = false;
+            }).AddEntityFrameworkStores<ProCarDbContext>()
+               .AddDefaultTokenProviders();
+
+            services.AddRazorPages();
+
+
+
+        
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddAutoMapper(typeof(MapperProfile).Assembly);
-            services.AddTransient<IEmployeeService, EmployeeService>();
+
 
             services.AddTransient<IEmailService, EmailService>();
             services.AddTransient<IFileService, FileService>();
 
-            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IUserService, UserService>();
+
             services.AddTransient<ICarService, CarService>();
             // services.AddTransient<ILeaseService, LeaseService>();
         }

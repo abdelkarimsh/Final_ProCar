@@ -3,14 +3,16 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MiddleWares\**" />
+    <EmbeddedResource Remove="MiddleWares\**" />
+    <None Remove="MiddleWares\**" />
+  </ItemGroup>
 	
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
-	
-  <ItemGroup>
-    <Folder Include="MiddleWares\" />
-  </ItemGroup>
 	
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />

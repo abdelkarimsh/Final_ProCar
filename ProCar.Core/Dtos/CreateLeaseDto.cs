@@ -1,4 +1,5 @@
-﻿using ProCar.Core.Enums;
+﻿using Microsoft.AspNetCore.Http;
+using ProCar.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -11,21 +12,28 @@ namespace ProCar.Core.Dtos
     public class CreateLeaseDto
     {
 
+
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "تاريخ بداية عقد الايجار ")]
         public DateTime StartRent { get; set; }
+
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "تاريخ نهاية عقد الايجار ")]
         public DateTime EndRent { get; set; }
-        [Required(ErrorMessage = "هذاالحقل مطلوب")]
-        [Display(Name = "الزبون")]
-        public int CustomerId { get; set; }
+
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "السيارة")]
         public int CarId { get; set; }
-        [Required(ErrorMessage = "هذاالحقل مطلوب")]
-        [Display(Name = "الموظف")]
-        public string EmployeeId { get; set; }                 
 
+        [Required(ErrorMessage = "هذاالحقل مطلوب")]
+        [Display(Name = "الزبون")]
+        public string UserId { get; set; }
+
+        [Required(ErrorMessage = "هذا الحقل مطلوب")]
+        [Display(Name = "صورة الضمان")]
+        public IFormFile LegaldocumentImeg { get; set; }
+
+
+       
     }
 }

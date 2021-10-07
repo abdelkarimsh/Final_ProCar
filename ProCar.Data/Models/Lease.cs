@@ -12,33 +12,31 @@ namespace ProCar.Data.Models
      public class Lease 
     {
         public int Id { get; set; }
-        [Required]
+
         public DateTime StartRent { get; set; }
-        [Required]
+
         public DateTime EndRent { get; set; }
-       
-        [Required]
+
         public leaseStatus leasestatus { get; set; }
+
         public double TotalPrice { get; set; }
+
         public ApprovalStatus Approval { get; set; }
-        public int EmployeeId { get; set; }
-        public Employee Employee { get; set; }
-        public int CustomerId { get; set; }
-        public Customer Customer { get; set; }
+
+        public string  UserId { get; set; }
+
+        public User User { get; set; }
+
         public int CarId { get; set; }
+
         public Car Car { get; set; }
+
         public bool IsDelete { get; set; }
 
+        public string LegaldocumentImegUrl { get; set; }
 
 
-        //public Lease()
-        //{
-        //    var diffResult = (EndRent.Date - StartRent.Date).Days;
-        //    this.TotalPrice = this.Car.PriceOnDay * diffResult;
 
-        //    leasestatus = leaseStatus.Active;
-        //    Approval = ApprovalStatus.Pending;
 
-        //}
     }
 }

@@ -185,76 +185,6 @@ namespace ProCar.Data.Migrations
                     b.ToTable("Cars");
                 });
 
-            modelBuilder.Entity("ProCar.Data.Models.Customer", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("DrivingLicenseNumber")
-                        .HasColumnType("int");
-
-                    b.Property<string>("LegaldocumentImegUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Customers");
-                });
-
-            modelBuilder.Entity("ProCar.Data.Models.Employee", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime?>("DOB")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("Gender")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<float>("Salary")
-                        .HasColumnType("real");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("UserType")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Employees");
-                });
-
             modelBuilder.Entity("ProCar.Data.Models.Lease", b =>
                 {
                     b.Property<int>("Id")
@@ -268,23 +198,23 @@ namespace ProCar.Data.Migrations
                     b.Property<int>("CarId")
                         .HasColumnType("int");
 
-                    b.Property<int>("CustomerId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("EmployeeId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("EndRent")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
 
+                    b.Property<string>("LegaldocumentImegUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("StartRent")
                         .HasColumnType("datetime2");
 
                     b.Property<double>("TotalPrice")
                         .HasColumnType("float");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("leasestatus")
                         .HasColumnType("int");
@@ -293,9 +223,7 @@ namespace ProCar.Data.Migrations
 
                     b.HasIndex("CarId");
 
-                    b.HasIndex("CustomerId");
-
-                    b.HasIndex("EmployeeId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("leases");
                 });
@@ -308,12 +236,18 @@ namespace ProCar.Data.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("DrivingLicenseNumber")
+                        .HasColumnType("int");
 
                     b.Property<string>("Email")
                         .HasMaxLength(256)
@@ -323,15 +257,16 @@ namespace ProCar.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FullName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
+
+                    b.Property<string>("LegaldocumentImegUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -430,26 +365,6 @@ namespace ProCar.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ProCar.Data.Models.Customer", b =>
-                {
-                    b.HasOne("ProCar.Data.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("ProCar.Data.Models.Employee", b =>
-                {
-                    b.HasOne("ProCar.Data.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("ProCar.Data.Models.Lease", b =>
                 {
                     b.HasOne("ProCar.Data.Models.Car", "Car")
@@ -458,23 +373,13 @@ namespace ProCar.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ProCar.Data.Models.Customer", "Customer")
+                    b.HasOne("ProCar.Data.Models.User", "User")
                         .WithMany("lease")
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ProCar.Data.Models.Employee", "Employee")
-                        .WithMany("lease")
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
 
                     b.Navigation("Car");
 
-                    b.Navigation("Customer");
-
-                    b.Navigation("Employee");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("ProCar.Data.Models.Car", b =>
@@ -482,12 +387,7 @@ namespace ProCar.Data.Migrations
                     b.Navigation("lease");
                 });
 
-            modelBuilder.Entity("ProCar.Data.Models.Customer", b =>
-                {
-                    b.Navigation("lease");
-                });
-
-            modelBuilder.Entity("ProCar.Data.Models.Employee", b =>
+            modelBuilder.Entity("ProCar.Data.Models.User", b =>
                 {
                     b.Navigation("lease");
                 });

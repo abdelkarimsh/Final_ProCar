@@ -64,9 +64,9 @@ namespace ProCar.Infrastructure.Services.Lease
             return _mapper.Map<UpdateLeaseDto>(dto);
         }
         //inclode 
-        public async Task<List<LeaseViewModel>> GetCustomerLeases(Customer customer)
+        public async Task<List<LeaseViewModel>> GetCustomerLeases(User user)
         {
-            var Leases =await _db.leases.Include(x => x.Customer).Where(x => !x.IsDelete && x.CustomerId == customer.Id).ToListAsync();
+            var Leases =await _db.leases.Include(x => x.User).Where(x => !x.IsDelete && x.UserId == user.Id).ToListAsync();
             var result = _mapper.Map<List<LeaseViewModel>>(Leases);
             return result;
         }

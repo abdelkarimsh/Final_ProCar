@@ -15,18 +15,14 @@ namespace ProCar.Infrastructure.AutoMapper
         public MapperProfile()
         {
 
-            CreateMap<Employee, EmployeeViewModel>().ForMember(x => x.UserType, x => x.MapFrom(x => x.UserType.ToString())); ;
-            CreateMap<CreateEmployeeDto, Employee>().ForMember(x => x.ImageUrl, x => x.Ignore());
-            CreateMap<UpdateEmployeeDto, Employee>().ForMember(x => x.ImageUrl, x => x.Ignore());
-            CreateMap<Employee, UpdateEmployeeDto>().ForMember(x => x.Image, x => x.Ignore());
-
+            CreateMap<User, UserViewModel>();
+            CreateMap<CreateUserDto, User>().ForMember(x => x.ImageUrl, x => x.Ignore());
+          
 
             CreateMap<Car, CarViewModel>();
             CreateMap<CreateCarDto, Car>().ForMember(x => x.ImegUrl, x => x.Ignore());
 
-            //CreateMap<Customer, CustomerViewModel>();
-            CreateMap<CreateCustomerDto, Customer>();
-
+          
 
         }
 

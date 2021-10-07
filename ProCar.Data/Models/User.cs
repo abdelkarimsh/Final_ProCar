@@ -11,14 +11,17 @@ namespace ProCar.Data.Models
 {
     public class User : IdentityUser
     {
-        [Required]
+
         public string FullName { get; set; }
-        [Required]
+
         public string ImageUrl { get; set; }
-        //public string UserId { get; set; }
         public bool IsDelete { get; set; }
         public DateTime CreatedAt { get; set; }
-      
+        public string City { get; set; }
+        public int DrivingLicenseNumber { get; set; }
+        public List<Lease> lease { get; set; }
+        public string LegaldocumentImegUrl { get; set; }
+
 
 
         public User()
