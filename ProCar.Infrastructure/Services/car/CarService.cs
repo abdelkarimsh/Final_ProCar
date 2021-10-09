@@ -34,7 +34,7 @@ namespace ProCar.Infrastructure.Services
             this._mapper = _mapper;
          
         }
-        public  async Task<ResponseDto> GetALlCars(Pagination pagination, Query query)
+        public  async Task<ResponseDto> GetAllCars(Pagination pagination, Query query)
         {
             var carObject = _db.Cars.Include(x => x.lease).Where(x => !x.IsDelete).AsQueryable();
             var dataCount = carObject.Count();
@@ -110,9 +110,13 @@ namespace ProCar.Infrastructure.Services
         }
 
 
+        //اضافة حالة السيارة 
 
-
-
+        public async Task<List<CarViewModel>> GetCarsList()
+        {
+            var cars = await _db.Cars.Where(x => !x.IsDelete).ToListAsync();
+            return _mapper.Map<List<CarViewModel>>(cars);
+        }
 
 
 

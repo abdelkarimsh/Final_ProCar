@@ -48,35 +48,24 @@ namespace ProCar.Web.Controllers
             return Json(result);
 
         }
-       
 
-        //[HttpGet]
-        //public async Task<IActionResult> Create([FromForm] CreateUserDto dto)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        await CreateUserDto.Create(dto);
-        //        return Ok(Results.AddSuccessResult());
-        //    }
-        //    return View(dto);
-        //}
-        //[HttpGet]
-        //public async Task<IActionResult> Update(int id)
-        //{
-        //    var user = await _IUserService.Get(id);
-        //    return View(user);
-        //}
+        [HttpGet]
+        public async Task<IActionResult> Update(string id)
+        {
+            var user = await _IUserService.Get(id);
+            return View(user);
+        }
 
-        //[HttpPost]
-        //public async Task<IActionResult> Update([FromForm] UpdateEmployeeDto dto)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        await _IUserService.Update(dto);
-        //        return Ok(Results.EditSuccessResult());
-        //    }
-        //    return View(dto);
-        //}
+        [HttpPost]
+        public async Task<IActionResult> Update([FromForm] UpdateUserDto dto)
+        {
+            if (ModelState.IsValid)
+            {
+                await _IUserService.Update(dto);
+                return Ok(Results.EditSuccessResult());
+            }
+            return View(dto);
+        }
 
         [HttpGet]
         public async Task<IActionResult> Delete(string id)

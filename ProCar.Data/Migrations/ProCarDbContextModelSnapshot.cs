@@ -185,7 +185,7 @@ namespace ProCar.Data.Migrations
                     b.ToTable("Cars");
                 });
 
-            modelBuilder.Entity("ProCar.Data.Models.Lease", b =>
+            modelBuilder.Entity("ProCar.Data.Models.Leases", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -365,7 +365,7 @@ namespace ProCar.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ProCar.Data.Models.Lease", b =>
+            modelBuilder.Entity("ProCar.Data.Models.Leases", b =>
                 {
                     b.HasOne("ProCar.Data.Models.Car", "Car")
                         .WithMany("lease")

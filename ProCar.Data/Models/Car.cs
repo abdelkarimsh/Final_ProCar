@@ -19,9 +19,14 @@ namespace ProCar.Data.Models
         [Required]
         public string ImegUrl { get; set; }
         public float PriceOnDay { get; set; }
-        public List<Lease> lease { get; set; }
+        public List<Leases> lease { get; set; }
         public CarStatus CarStatus { get; set; }
         public bool IsDelete { get; set; }
+
+        public Car()
+        {
+            CarStatus = CarStatus.InService;
+        }
 
     }
 }

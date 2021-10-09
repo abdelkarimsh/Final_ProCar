@@ -1,0 +1,101 @@
+﻿@model CreateCarDto
+
+@{
+    ViewData["Title"] = "اضافة سيارة جديد";
+    Layout = null;
+}
+
+<form asp-action="Create" class="ajaxForm" tname="#kt_datatable">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label asp-for="MakerName" class="control-label"></label>
+                <select asp-for="MakerName" class="form-control">
+                    <option value="@MakerName.Golf">Golf</option>
+                    <option value="@MakerName.Honda">Honda</option>
+                    <option value="@MakerName.Mitsubishi">Mitsubishi</option>
+                    <option value="@MakerName.Nissan">Nissan</option>
+                    <option value="@MakerName.Skoda">Skoda </option>
+                    <option value="@MakerName.Toyota">Toyota </option>
+                </select>
+                <span asp-validation-for="MakerName" class="text-danger"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="ColorId" class="control-label"></label>
+                <select asp-for="ColorId" class="form-control">
+                    <option value="@ColorId.Black">Black</option>
+                    <option value="@ColorId.Blue">Blue</option>
+                    <option value="@ColorId.Red">Red</option>
+                    <option value="@ColorId.Silver">Silver</option>
+                    <option value="@ColorId.White">White </option>
+                </select>
+                <span asp-validation-for="ColorId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="ChassiNumber" class="control-label"></label>
+                <input asp-for="ChassiNumber" class="form-control" />
+                <span asp-validation-for="ChassiNumber" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="PriceOnDay" class="control-label"></label>
+                <input asp-for="PriceOnDay" class="form-control" />
+                <span asp-validation-for="PriceOnDay" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Imeg" class="control-label"></label>
+                <input asp-for="Imeg" class="form-control" />
+                <span asp-validation-for="Imeg" class="text-danger"></span>
+            </div>
+        </div>
+        
+
+   
+    <div class="form-group">
+        <input type="submit" value="اضافة" class="btn btn-primary" />
+        <a data-dismiss="modal" aria-label="Close" class="btn btn-danger">الغاء</a>
+    </div>
+
+
+</form>
+
+
+<script>
+    PageLoadActions();
+
+    $('#userInfo').hide();
+    $('#userList').hide();
+
+    $('#ownerType').on('change', function () {
+        if (this.value == 1) {
+            $('#userInfo').show();
+            $('#userList').hide();
+        } else if (this.value == 2) {
+            $('#userList').show();
+            $('#userInfo').hide();
+        }
+    });
+
+
+</script>
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>

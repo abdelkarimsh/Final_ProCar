@@ -34,10 +34,7 @@ namespace ProCar.Infrastructure.Services.Users
         }
         public async Task<ResponseDto> GetAll(Pagination pagination, Query query)
         {
-            var queryString = _db.Users.Where(x => !x.IsDelete && (x.FullName.Contains(query.GeneralSearch) ||
-            string.IsNullOrWhiteSpace(query.GeneralSearch) ||
-            x.Email.Contains(query.GeneralSearch) ||
-            x.PhoneNumber.Contains(query.GeneralSearch))).AsQueryable();
+            var queryString = _db.Users.Where(x => !x.IsDelete && (x.FullName.Contains(query.GeneralSearch) || string.IsNullOrWhiteSpace(query.GeneralSearch) || x.Email.Contains(query.GeneralSearch) || x.PhoneNumber.Contains(query.GeneralSearch))).AsQueryable();
 
             var dataCount = queryString.Count();
             var skipValue = pagination.GetSkipValue();
@@ -56,8 +53,9 @@ namespace ProCar.Infrastructure.Services.Users
                 }
             };
             return result;
-
         }
+
+
 
 
 
@@ -68,6 +66,7 @@ namespace ProCar.Infrastructure.Services.Users
             {
                 throw new EntityNotFoundException();
             }
+            
             return _mapper.Map<UpdateUserDto>(user);
         }
 
@@ -135,13 +134,41 @@ namespace ProCar.Infrastructure.Services.Users
             return user.Id;
         }
 
-
+        public async Task<string> Update(UpdateUserDto dto)
+        {
+            var emailOrPhoneIsExist = _db.Users.Any(x => !x.IsDelete && (x.Email == dto.Email || x.PhoneNumber == dto.PhoneNumber) && x.Id != dto.Id);
+            if (emailOrPhoneIsExist)
+            {
+                throw new DuplicateEmailOrPhoneException();
+            }
+            var user = await _db.Users.FindAsync(dto.Id);
+            var updatedUser = _mapper.Map<UpdateUserDto, User>(dto, user);
+            if (dto.Imege != null)
+            {
+                updatedUser.ImageUrl = await _fileService.SaveFile(dto.Imege, FolderNames.ImagesFolder);
+            }
+            _db.Users.Update(updatedUser);
+            await _db.SaveChangesAsync();
+            return user.Id;
+        }
 
 
         private string GenratePassword()
         {
             return Guid.NewGuid().ToString().Substring(1, 8);
         }
+
+
+        public async Task<List<UserViewModel>> GetUsersList()
+        {
+            var user = await _db.Cars.Where(x => !x.IsDelete).ToListAsync();
+            return _mapper.Map<List<UserViewModel>>(user);
+        }
+
+
+
+
+
 
     }
 }

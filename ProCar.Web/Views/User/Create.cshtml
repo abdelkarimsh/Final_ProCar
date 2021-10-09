@@ -46,18 +46,6 @@
                 <span asp-validation-for="City" class="text-danger"></span>
             </div>
         </div>
-
-        <!<!<!<!<!<!------------<--><!----><!----><!----><!---->--><!----><!----><!---->--><!---->--><!--@*div class="col-md-4">
-            <div class="form-group">
-                <label asp-for="UserType" class="control-label"></label>
-                <select asp-for="UserType" class="form-control">
-                    <option value="@UserType.Administrator">مدير</option>
-                    <option value="@UserType.ArticleAuthor">محرر</option>
-                    <option value="@UserType.TrackAdministrator">مسؤول التسجيلات </option>
-                </select>
-                <span asp-validation-for="UserType" class="text-danger"></span>
-            </div>
-        </div>*@-->--><!----><!---->-->
         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="Imege" class="control-label"></label>
@@ -70,13 +58,6 @@
     <div class="form-group">
         <input type="submit" value="اضافة" class="btn btn-primary" />
         <a data-dismiss="modal" aria-label="Close" class="btn btn-danger">الغاء</a>
+
     </div>
 </form>
-
-
-<script>
-    PageLoadActions();
-</script>
-
-<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>

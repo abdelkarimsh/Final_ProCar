@@ -1,0 +1,84 @@
+﻿@model CreateLeaseDto
+
+@{
+    ViewData["Title"] = "اضافة عفد ايجار جديد";
+    Layout = null;
+}
+
+<form asp-action="Create" class="ajaxForm" tname="#kt_datatable">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label asp-for="StartRent" class="control-label"></label>
+                <input asp-for="StartRent" class="form-control" />
+                <span asp-validation-for="StartRent" class="text-danger"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="EndRent" class="control-label"></label>
+                <input asp-for="EndRent" class="form-control" />
+                <span asp-validation-for="EndRent" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="LegaldocumentImeg" class="control-label"></label>
+                <input asp-for="LegaldocumentImeg" class="form-control" />
+                <span asp-validation-for="LegaldocumentImeg" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" />
+                @*<select asp-for="UserId" class="form-control" asp-items="@ViewBag.Users"></select>*@
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="CarId" class="control-label"></label>
+                <input asp-for="CarId" class="form-control" />
+                @*<select asp-for="CarId" class="form-control" asp-items="@ViewBag.Cars"></select>*@
+                <span asp-validation-for="CarId" class="text-danger"></span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="form-group">
+        <input type="submit" value="اضافة" class="btn btn-primary" />
+        <a data-dismiss="modal" aria-label="Close" class="btn btn-danger">الغاء</a>
+    </div>
+</form>
+
+
+<script>
+    PageLoadActions();
+
+    $('#userInfo').hide();
+    $('#userList').hide();
+
+    $('#ownerType').on('change', function () {
+        if (this.value == 1) {
+            $('#userInfo').show();
+            $('#userList').hide();
+        } else if (this.value == 2) {
+            $('#userList').show();
+            $('#userInfo').hide();
+        }
+    });
+
+
+</script>
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>

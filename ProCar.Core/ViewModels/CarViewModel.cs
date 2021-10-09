@@ -16,8 +16,7 @@ namespace ProCar.Core.ViewModels
         public string ChassiNumber { get; set; }
         public string ImegUrl { get; set; }
         public float PriceOnDay { get; set; }
-        public CarStatus CarStatus { get; set; }
-
+     
 
     }
 }

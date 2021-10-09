@@ -67,7 +67,7 @@ namespace ProCar.Web
             services.AddTransient<IUserService, UserService>();
 
             services.AddTransient<ICarService, CarService>();
-            // services.AddTransient<ILeaseService, LeaseService>();
+             services.AddTransient<ILeaseService, LeaseService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

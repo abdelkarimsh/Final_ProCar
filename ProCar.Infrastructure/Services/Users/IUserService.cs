@@ -1,4 +1,5 @@
 ﻿using ProCar.Core.Dtos;
+using ProCar.Core.ViewModels;
 using ProCars.Core.Dtos;
 using System;
 using System.Collections.Generic;
@@ -14,5 +15,7 @@ namespace ProCar.Infrastructure.Services.Users
         Task<ResponseDto> GetAll(Pagination pagination, Query query);
         Task<UpdateUserDto> Get(string Id);
         Task<string> Create(CreateUserDto dto);
+        Task<string> Update(UpdateUserDto dto);
+        Task<List<UserViewModel>> GetUsersList();
     }
 }

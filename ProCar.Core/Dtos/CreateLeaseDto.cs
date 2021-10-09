@@ -25,9 +25,11 @@ namespace ProCar.Core.Dtos
         [Display(Name = "السيارة")]
         public int CarId { get; set; }
 
+
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "الزبون")]
         public string UserId { get; set; }
+
 
         [Required(ErrorMessage = "هذا الحقل مطلوب")]
         [Display(Name = "صورة الضمان")]

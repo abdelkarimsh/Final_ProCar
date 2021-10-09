@@ -45,11 +45,13 @@ var KTDatatableAutoColumnHideDemo = function () {
                 field: 'email',
                 title: 'البريد ',
                 width: '250'
-            }, {
-                field: 'userType',
-                title: 'نوع المستخدم ',
-                width: '250'
-            }
+            }//, {
+            //    field: 'imageUrl',
+            //    title: 'صورة الزبون ',
+            //    width: '250',
+            //    template: function (data) {
+            //        return '<img  src = "/Images/' + data.imageUrl + '"></img >';
+            //}
                 , {
                 field: 'phoneNumber',
                 title: 'رقم الجوال ',

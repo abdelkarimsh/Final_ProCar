@@ -9,15 +9,16 @@ namespace ProCar.Core.ViewModels
     public class UserViewModel
     {
 
-        public int Id { get; set; }
-        public string FULLName { get; set; }
+        public string Id { get; set; }
+        public string FullName { get; set; }
         public string City { get; set; }
         public int DrivingLicenseNumber { get; set; }
         public string PhoneNumber { get; set; }
-        public string EmailAddress { get; set; }
+        public string Email { get; set; }
         public string LegaldocumentImegUrl { get; set; }
-
-
+        public DateTime CreatedAt { get; set; }
+        public string ImageUrl { get; set; }
+   
 
 
     }

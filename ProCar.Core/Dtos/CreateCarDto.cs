@@ -26,11 +26,7 @@ namespace ProCar.Core.Dtos
         [Required(ErrorMessage = "هذا الحقل مطلوب")]
         [Display(Name = "سعر الايجار خلال اليوم الواحد")]
         public float PriceOnDay { get; set; }
-        public CarStatus carStatus { get; set; }
-        
-        //public CreateCarDto()
-        //{
-        //    carStatus = CarStatus.InService;
-        //}
+       
+       
     }
 }

@@ -19,7 +19,7 @@ namespace ProCar.Data.Models
         public DateTime CreatedAt { get; set; }
         public string City { get; set; }
         public int DrivingLicenseNumber { get; set; }
-        public List<Lease> lease { get; set; }
+        public List<Leases> lease { get; set; }
         public string LegaldocumentImegUrl { get; set; }
 
 

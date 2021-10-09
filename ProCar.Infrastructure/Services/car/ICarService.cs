@@ -11,10 +11,11 @@ namespace ProCar.Infrastructure.Services.car
 {
     public interface ICarService
     {
-        Task<ResponseDto> GetALlCars(Pagination pagination, Query query);
+        Task<ResponseDto> GetAllCars(Pagination pagination, Query query);
         Task<int> Delete(int id);
         Task<int> Create(CreateCarDto dto);
         Task<List<CarViewModel>> GetbusyCars();
         Task<List<CarViewModel>> GetInServiceCars();
+        Task<List<CarViewModel>> GetCarsList();
     }
 }

@@ -13,7 +13,7 @@ namespace ProCar.Data
             : base(options)
         {
         }
-        public DbSet<Lease> leases { get; set; }
+        public DbSet<Leases> leases { get; set; }
         public DbSet<Car> Cars { get; set; }
     }
 }
