@@ -6,10 +6,12 @@ using ProCar.Core.Exceptions;
 using ProCar.Core.ViewModels;
 using ProCar.Data;
 using ProCar.Data.Models;
+using ProCar.Infrastructure.Helpers;
 using ProCar.Infrastructure.Services.Lease;
 using ProCars.Core.Dtos;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -82,7 +84,10 @@ namespace ProCar.Infrastructure.Services.Lease
 
         public async Task<int> Create(CreateLeaseDto dto)
         {
-
+            if (dto.StartRent >= dto.EndRent)
+            {
+                throw new InvalidDataException();
+            }
 
             var lease = _mapper.Map<Leases>(dto);
             if (dto.LegaldocumentImeg != null)
@@ -97,6 +102,10 @@ namespace ProCar.Infrastructure.Services.Lease
 
         public async Task<int> Update(UpdateLeaseDto dto)
         {
+            if (dto.StartRent >= dto.EndRent)
+            {
+                throw new InvalidDataException();
+            }
             var lease =await _db.leases.Include(x => x.User).Include(x => x.Car).SingleOrDefaultAsync(x => x.Id == dto.Id && !x.IsDelete);
             if (lease == null)
             {
@@ -139,14 +148,11 @@ namespace ProCar.Infrastructure.Services.Lease
             };
             return result;
 
-        }
-
-
-
+        }  
 
         public async Task<ResponseDto> GetUserLeases(string Id, Pagination pagination)
         {
-            var Leases =  _db.leases.Include(x => x.User).Where(x => !x.IsDelete && x.UserId ==Id).AsQueryable();
+            var Leases = _db.leases.Include(x => x.Car).Include(x=>x.User).Where(x => !x.IsDelete && x.UserId == Id).AsQueryable();
 
             var dataCount = Leases.Count();
             var skipValue = pagination.GetSkipValue();
@@ -167,5 +173,31 @@ namespace ProCar.Infrastructure.Services.Lease
             return result;
 
         }
+
+        public async Task<byte[]> ExportToExcel()
+        {
+            var leases = await _db.leases.Include(x=>x.User).Where(x => !x.IsDelete).ToListAsync();
+
+            return ExcelHelpers.ToExcel(new Dictionary<string, ExcelColumn>
+            {
+                {"lease status", new ExcelColumn("lease status", 0)},
+                {"Start Rent", new ExcelColumn("Start Rent", 1)},
+                {"End Rent", new ExcelColumn("End Rent", 2)},
+                {"Full Name", new ExcelColumn("Full Name", 2)}
+            }, new List<ExcelRow>(leases.Select(e => new ExcelRow
+            {
+                Values = new Dictionary<string, string>
+                {
+                    {"lease status", e.leasestatus.ToString()},
+                    {"Start Rent", e.StartRent.ToString("yy:MM:dd")},
+                    {"End Rent",e.EndRent.ToString("yy:MM:dd")},
+                    {"Full Name",e.User.FullName},
+
+                }
+            })));
+        }
+
+
+
     }
 }

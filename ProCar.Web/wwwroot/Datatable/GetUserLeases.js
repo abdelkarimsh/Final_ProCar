@@ -1,4 +1,4 @@
-ï»¿"use strict";
+"use strict";
 // Class definition
 
 var KTDatatableAutoColumnHideDemo = function () {
@@ -13,7 +13,7 @@ var KTDatatableAutoColumnHideDemo = function () {
                 type: 'remote',
                 source: {
                     read: {
-                        url: 'Lease/GetLeasesData',
+                        url: 'Lease/GetUserLeases',
                     },
                 },
                 pageSize: 10,
@@ -39,37 +39,37 @@ var KTDatatableAutoColumnHideDemo = function () {
             // columns definition
             columns: [{
                 field: 'startRent',
-                title: 'ØªØ§Ø±ÙŠØ® Ø§Ù„Ø¨Ø¯Ø§ÙŠØ©',
+                title: 'ÊÇÑíÎ ÇáÈÏÇíÉ',
                 width: 'auto'
             }, {
                 field: 'endRent',
-                title: 'ØªØ§Ø±ÙŠØ® Ø§Ù„Ù†Ù‡Ø§ÙŠØ© ',
+                title: 'ÊÇÑíÎ ÇáäåÇíÉ ',
                 width: 'auto'
-                }
+            }
                 , {
-                 field: 'leasestatus',
-                title: 'Ø­Ø§Ù„Ø© Ø§Ù„Ø¹Ù‚Ø¯ ',
+                field: 'leasestatus',
+                title: 'ÍÇáÉ ÇáÚÞÏ ',
                 width: 'auto'
-                },
-                {
-                    field: 'user.fullName',
-                    title: 'Ø§Ø³Ù… Ø§Ù„Ø²Ø¨ÙˆÙ† ',
-                    width: 'auto'
-                },
-                {
-                    field: 'car.makerName',
-                    title: 'Ù†ÙˆØ¹ Ø§Ù„Ø³ÙŠØ§Ø±Ø© ',
-                    width: 'auto'
-                },
+            },
+            {
+                field: 'user.fullName',
+                title: 'ÇÓã ÇáÒÈæä ',
+                width: 'auto'
+            },
+            {
+                field: 'car.makerName',
+                title: 'äæÚ ÇáÓíÇÑÉ ',
+                width: 'auto'
+            },
             {
                 field: 'Actions',
-                title: 'Ø§Ù„Ø¹Ù…Ù„ÙŠØ§Øª',
+                title: 'ÇáÚãáíÇÊ',
                 sortable: false,
                 width: 125,
                 overflow: 'visible',
                 autoHide: false,
                 template: function (data) {
-                    return '\<a  href ="/Lease/Update/' + data.id + '" class="PopUp btn btn-sm btn-clean btn-icon mr-2" title="ØªØ¹Ø¯ÙŠÙ„  Ø¨ÙŠØ§Ù†Ø§Øª  Ø¹Ù‚Ø¯ Ø§Ù„Ø§ÙŠØ¬Ø§Ø±  ">\
+                    return '\<a  href ="/Lease/Update/' + data.id + '" class="PopUp btn btn-sm btn-clean btn-icon mr-2" title="ÊÚÏíá  ÈíÇäÇÊ  ÚÞÏ ÇáÇíÌÇÑ  ">\
                             <span class="svg-icon svg-icon-warning svg-icon-md">\
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">\
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\

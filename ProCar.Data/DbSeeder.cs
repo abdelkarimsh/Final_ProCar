@@ -41,9 +41,10 @@ namespace ProCar.Data
             var car = new Car();
             car.ChassiNumber = "123456";
             car.ColorId = ColorId.Silver;
-            car.MakerName = MakerName.Honda;
+            car.MakerName = MakerName.Toyota;
+            car.ImegUrl = "~/Images/235db6d2e3ac4fcc955f6bb81d23a841.jpg";
 
-            await _db.AddAsync(car);
+            await _db.Cars.AddAsync(car);
             await _db.SaveChangesAsync();
 
         }

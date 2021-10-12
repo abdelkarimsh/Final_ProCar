@@ -18,7 +18,9 @@ namespace ProCar.Core.ViewModels
         public string LegaldocumentImegUrl { get; set; }
         public string CreatedAt { get; set; }
         public string ImageUrl { get; set; }
-   
+        public string Type { get; set; }
+        public List<LeaseViewModel> lease { get; set; }
+
 
 
     }

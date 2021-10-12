@@ -93,5 +93,33 @@ namespace ProCar.Web.Controllers
             return Ok(Results.DeleteSuccessResult());
         }
 
+
+
+
+
+
+
+
+        [HttpGet]
+        public IActionResult ViewUserLeases()
+        {
+            return View();
+        }
+
+
+        public async Task<JsonResult> GetUserLeases(string Id,Pagination pagination)
+        {
+            var result = await ILeaseService.GetUserLeases(Id , pagination);
+            return Json(result);
+
+        }
+
+   
+
+        [HttpGet]
+        public async Task<IActionResult> ExportToExcel()
+        {
+            return File(await ILeaseService.ExportToExcel(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "report.xlsx");
+        }
     }
 }

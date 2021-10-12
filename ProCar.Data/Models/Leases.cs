@@ -35,7 +35,10 @@ namespace ProCar.Data.Models
 
         public string LegaldocumentImegUrl { get; set; }
 
-
+        public Leases()
+        {
+            leasestatus = leaseStatus.Active;
+        }
 
 
     }

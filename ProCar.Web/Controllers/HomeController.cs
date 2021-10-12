@@ -33,5 +33,10 @@ namespace ProCar.Web.Controllers
             var data = await _dashboardService.GetContentByMonthChart();
             return Ok(data);
         }
+        //public async Task<IActionResult> GetCarsTypeChartData()
+        //{
+        //    var data = await _dashboardService.GetCarsTypeChartData();
+        //    return Ok(data);
+        //}
     }
 }

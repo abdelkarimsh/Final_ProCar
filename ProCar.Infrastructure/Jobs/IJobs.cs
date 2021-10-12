@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProCar.Core.Enums
+namespace ProCar.Infrastructure.Jobs
 {
-    public enum Approval
+    public interface IJobs
     {
+        Task LeasesStatusJob();
     }
 }

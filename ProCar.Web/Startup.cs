@@ -1,3 +1,5 @@
+using Hangfire;
+using Hangfire.SqlServer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using ProCar.Data;
 using ProCar.Data.Models;
 using ProCar.Infrastructure.AutoMapper;
+using ProCar.Infrastructure.Jobs;
+using ProCar.Infrastructure.Middlewares;
 using ProCar.Infrastructure.Services;
 using ProCar.Infrastructure.Services.car;
 using ProCar.Infrastructure.Services.Dashboard;
@@ -55,8 +59,20 @@ namespace ProCar.Web
 
             services.AddRazorPages();
 
+            services.AddHangfire(configuration => configuration
+            .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+            .UseSimpleAssemblyNameTypeSerializer()
+            .UseRecommendedSerializerSettings()
+            .UseSqlServerStorage(Configuration.GetConnectionString("DefaultConnection"), new SqlServerStorageOptions
+            {
+                CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
+                SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
+                QueuePollInterval = TimeSpan.Zero,
+                UseRecommendedIsolationLevel = true,
+                DisableGlobalLocks = true
+            }));
 
-
+            services.AddHangfireServer();
 
             services.AddControllersWithViews();
             services.AddRazorPages();
@@ -72,10 +88,11 @@ namespace ProCar.Web
             services.AddTransient<ILeaseService, LeaseService>();
             services.AddTransient<IDashboardService, DashboardService>();
 
+            services.AddScoped<IJobs, Jobs>();
 
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IJobs jobs)
         {
             if (env.IsDevelopment())
             {
@@ -93,6 +110,11 @@ namespace ProCar.Web
 
             app.UseRouting();
 
+            app.UseHangfireDashboard();
+            
+            RecurringJob.AddOrUpdate("LeasesStatus", () => jobs.LeasesStatusJob(), Cron.Daily);
+            app.UseExceptionHandler(opts => opts.UseMiddleware<ExceptionHandler>());
+
             app.UseAuthentication();
             app.UseAuthorization();
 
@@ -102,9 +124,13 @@ namespace ProCar.Web
                     name: "default",
                     pattern: "{controller=Car}/{action=GeAllCarsCarsAsViewModel}/{id?}");
                 endpoints.MapRazorPages();
-            });
+            });   
         }
+
+        
+
     }
+
 }
 
 

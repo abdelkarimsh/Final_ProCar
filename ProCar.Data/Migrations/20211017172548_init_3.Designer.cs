@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProCar.Data;
 
 namespace ProCar.Data.Migrations
 {
     [DbContext(typeof(ProCarDbContext))]
-    partial class ProCarDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211017172548_init_3")]
+    partial class init_3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -20,7 +20,7 @@ namespace ProCar.Core.ViewModels
 
         public string EndRent { get; set; }
 
-        public leaseStatus leasestatus { get; set; }
+        public string leasestatus { get; set; }
 
         public double TotalPrice { get; set; }
 

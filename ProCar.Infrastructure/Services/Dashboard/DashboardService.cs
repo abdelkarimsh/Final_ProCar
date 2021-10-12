@@ -113,7 +113,33 @@ namespace ProCar.Infrastructure.Services.Dashboard
             return String.Format("#{0:X6}", random.Next(0x1000000));
         }
 
+        //public async Task<List<PieChartViewModel>> GetContentTypeChart()
+        //{
+
+        //    var data = new List<PieChartViewModel>();
+        //    data.Add(new PieChartViewModel()
+        //    {
+        //        Key = "Post",
+        //        Value = await _db.Cars.Where(x=>x.MakerName=="").CountAsync(x => !x.IsDelete),
+        //        color = GenrateColor()
+        //    });
+        //    data.Add(new PieChartViewModel()
+        //    {
+        //        Key = "Track",
+        //        Value = await _db.Cars.CountAsync(x => !x.IsDelete),
+        //        color = GenrateColor()
+        //    });
+
+        //    return data;
+        //}
+
+
+
 
 
     }
+
+
+
+
 }

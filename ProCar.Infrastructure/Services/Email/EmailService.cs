@@ -17,7 +17,7 @@ namespace ProCar.Infrastructure.Services
             // create message
             var message = new MailMessage();
 
-            message.From = new MailAddress("betaaspcourse@gmail.com", "Product App");
+            message.From = new MailAddress("betaaspcourse@gmail.com", "ProCar");
             message.Subject = subject;
             message.Body = body;
             message.To.Add(new MailAddress(to)); 

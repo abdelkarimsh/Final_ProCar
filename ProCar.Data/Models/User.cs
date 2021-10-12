@@ -21,6 +21,7 @@ namespace ProCar.Data.Models
         public int DrivingLicenseNumber { get; set; }
         public List<Leases> lease { get; set; }
         public string LegaldocumentImegUrl { get; set; }
+        public UserType Type { get; set; }
 
 
 

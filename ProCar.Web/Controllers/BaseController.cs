@@ -29,10 +29,11 @@ namespace ProCar.Web.Controllers
                 var userName = User.Identity.Name;
                 var user = _UserService.GetUserByUsername(userName);
                 userId = user.Id;
-                //userType = user;
+                userType = user.Type;
+                ViewBag.UserId = userId;
                 ViewBag.fullName = user.FullName;
                 ViewBag.image = user.ImageUrl;
-                //ViewBag.UserType = user.UserType.ToString();
+                ViewBag.UserType = user.Type.ToString();
             }
         }
 

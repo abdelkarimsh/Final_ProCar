@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using ProCar.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -31,7 +32,11 @@ namespace ProCar.Core.Dtos
         [Display(Name = "البريد الالكتروني")]
         public string Email { get; set; }
 
-        
+        [Required(ErrorMessage = "هذا الحقل مطلوب")]
+        [Display(Name = "نوع المستخدم")]
+        public UserType Type { get; set; }
+
+
 
         [Required(ErrorMessage = "هذا الحقل مطلوب")]
         [Display(Name = "صورة الزيون")]

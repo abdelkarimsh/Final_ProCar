@@ -174,7 +174,19 @@ namespace ProCar.Infrastructure.Services.Users
         }
 
 
+        public  async Task<UserViewModel> GetUsersLesas(string Id)
+        {
+            var user = await _db.Users.Include(x => x.lease).SingleOrDefaultAsync(x =>!x.IsDelete&&x.Id==Id);
+            if (user == null)
+            {
+                throw new EntityNotFoundException();
+            }
+            var leas= _mapper.Map < List<LeaseViewModel>>(user.lease);
+            var userViewModel=_mapper.Map<UserViewModel>(user);
+            userViewModel.lease = leas;
+            return userViewModel;
 
+        }
 
 
 

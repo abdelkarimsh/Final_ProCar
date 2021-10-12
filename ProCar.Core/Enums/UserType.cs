@@ -9,6 +9,6 @@ namespace ProCar.Core.Enums
     public enum UserType
     {
         Adminstrator = 1,
-        Employee =2,
+        Customer = 2,
     }
 }

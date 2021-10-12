@@ -1,4 +1,5 @@
 ﻿using ProCar.Core.Dtos;
+using ProCar.Core.ViewModels;
 using ProCars.Core.Dtos;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,11 @@ namespace ProCar.Infrastructure.Services.Lease
         Task<int> Create(CreateLeaseDto dto);
         Task<int> Update(UpdateLeaseDto dto);
         Task<ResponseDto> GetCarLeases(int Id, Pagination pagination);
+
         Task<ResponseDto> GetUserLeases(string Id, Pagination pagination);
+        Task<byte[]> ExportToExcel();
+
+
 
 
     }

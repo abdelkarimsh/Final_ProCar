@@ -66,20 +66,15 @@
         //var userTypeCanvas = document.getElementById('userTypeChart').getContext('2d');
         //var contentTypeCanvas = document.getElementById('contentTypeChart').getContext('2d');
         var contentByMonthChartCanvas = document.getElementById('contentByMonthChart').getContext('2d');
-
         //var userTypeChartLabels = [];
         //var userTypeChartValues = [];
         //var userTypeChartColores = [];
-
         var contentTypeChartLabels = [];
         var contentTypeChartValues = [];
         var contentTypeChartColores = [];
-
         var contentByMonthTypeChartLabels = [];
         var contentByMonthTypeChartValues = [];
         var contentByMonthTypeChartColores = [];
-
-
         //$.ajax({
         //    url: "/Home/GetUserTypeChartData", success: function (result) {
         //        $(result).each(function (index) {
@@ -98,13 +93,10 @@
         //                }]
         //            },
         //            options: {
-
         //            }
         //        });
         //    }
         //});
-
-
         $.ajax({
             url: "/Home/GetContentTypeChartData", success: function (result) {
                 $(result).each(function (index) {
@@ -123,12 +115,10 @@
                         }]
                     },
                     options: {
-
                     }
                 });
             }
         });
-
         $.ajax({
             url: "/Home/GetContentByMonthChartData", success: function (result) {
                 $(result).each(function (index) {
@@ -147,14 +137,9 @@
                         }]
                     },
                     options: {
-
                     }
                 });
             }
         });
-
     </script>
 }
-
-
-

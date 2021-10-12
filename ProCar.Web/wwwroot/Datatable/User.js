@@ -56,7 +56,12 @@ var KTDatatableAutoColumnHideDemo = function () {
                 field: 'phoneNumber',
                 title: 'رقم الجوال ',
                 width: 'auto'
-            },
+                },
+                {
+                    field: 'type',
+                    title: 'نوع المستخدم ',
+                    width: 'auto'
+                },
             {
                 field: 'Actions',
                 title: 'العمليات',
