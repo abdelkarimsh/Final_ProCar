@@ -14,8 +14,9 @@ namespace ProCar.Infrastructure.Services.car
         Task<ResponseDto> GetAllCars(Pagination pagination, Query query);
         Task<int> Delete(int id);
         Task<int> Create(CreateCarDto dto);
-        Task<List<CarViewModel>> GetbusyCars();
+        //Task<List<CarViewModel>> GetbusyCars();
         Task<List<CarViewModel>> GetInServiceCars();
         Task<List<CarViewModel>> GetCarsList();
+        Task<List<CarViewModel>>GeAllCarsCarsAsViewModel();
     }
 }

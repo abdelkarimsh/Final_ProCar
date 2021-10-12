@@ -13,14 +13,14 @@ using System.Threading.Tasks;
 
 namespace ProCar.Web.Controllers
 {
-    public class LeaseController : Controller
+    public class LeaseController : BaseController
     {
 
         private readonly IUserService _IUserService;
         private readonly ICarService ICarService;
         private readonly ILeaseService ILeaseService;
 
-        public LeaseController(IUserService iUserService, ICarService iCarService, ILeaseService iLeaseService)
+        public LeaseController(IUserService iUserService, ICarService iCarService, ILeaseService iLeaseService) : base(iUserService)
         {
             _IUserService = iUserService;
             ICarService = iCarService;
@@ -44,8 +44,8 @@ namespace ProCar.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Create()
         {
-            //ViewData["Users"] = new SelectList(await _IUserService.GetUsersList(), "Id", "FullName");
-            //ViewData["Cars"] = new SelectList(await ICarService.GetCarsList(), "Id", "MakerName");
+            ViewData["Users"] = new SelectList(await _IUserService.GetUsersList(), "Id", "FullName");
+            ViewData["Cars"] = new SelectList(await ICarService.GetCarsList(), "Id", "MakerName");
             return View();
         }
 
@@ -60,7 +60,38 @@ namespace ProCar.Web.Controllers
                 return Ok(Results.AddSuccessResult());
             }
             return View(dto);
-            //ViewData["categories"] = new SelectList(await _categoryService.GetCategoryList(), "Id", "Name");
-        }       
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> Update(int id)
+        {
+            var lease = await ILeaseService.Get(id);
+            ViewData["Users"] = new SelectList(await _IUserService.GetUsersList(), "Id", "FullName");
+            ViewData["Cars"] = new SelectList(await ICarService.GetCarsList(), "Id", "MakerName");
+            return View(lease);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Update(UpdateLeaseDto dto)
+        {
+            if (ModelState.IsValid)
+            {
+                await ILeaseService.Update(dto);
+                return Ok(Results.EditSuccessResult());
+            }
+
+          
+            return View(dto);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await  ILeaseService.Delete(id);
+            return Ok(Results.DeleteSuccessResult());
+        }
+
     }
 }

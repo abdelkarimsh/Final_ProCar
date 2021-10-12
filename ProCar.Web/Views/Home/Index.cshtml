@@ -1,34 +1,160 @@
-﻿
+﻿@model DashboardViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
 
 
-
-<h2>Cars</h2>
-
-
-<div class="container">
-    <div id="products" class="row list-group">
-        <div class="item  col-xs-4 col-lg-4">
-            <div class="thumbnail">
-                <img class="group list-group-image" src="https://source.unsplash.com/400x250/?mobile" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        Product title
-                    </h4>
-                    <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                    </p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                                $21.000
-                            </p>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="#1">Add to cart</a>
-                        </div>
+<div class="card card-custom">
+    <div class="card-header flex-wrap border-0 pt-6 pb-0">
+        <div class="card-title">
+            <h1 class="card-label">
+                احصائيات
+            </h1>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="alert alert-info">
+                        <h3>عدد المستخدمين</h3>
+                        <h3>@Model.NumberOfUsers</h3>
+                    </div>
+                </div>
+                <br />
+                <div class="col-md-3">
+                    <div class="alert alert-info">
+                        <h3>عدد عقود الايجار</h3>
+                        <h3>@Model.NumberOflease</h3>
+                    </div>
+                </div>
+                <br />
+                <div class="col-md-3">
+                    <div class="alert alert-info">
+                        <h3>عدد السيارات</h3>
+                        <h3>@Model.NumberOfCars</h3>
                     </div>
                 </div>
             </div>
+            <br />
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>انواع السيارات </h3>
+                    <canvas id="contentTypeChart" width="400" height="400"></canvas>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>توزيع المحتوى بالنسبة لاشهر السنة </h3>
+                    <canvas id="contentByMonthChart" width="400" height="400"></canvas>
+                </div>
+            </div>
+
+
         </div>
     </div>
+</div>
+
+@section Scripts {
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+
+
+    <script>
+        //var userTypeCanvas = document.getElementById('userTypeChart').getContext('2d');
+        //var contentTypeCanvas = document.getElementById('contentTypeChart').getContext('2d');
+        var contentByMonthChartCanvas = document.getElementById('contentByMonthChart').getContext('2d');
+
+        //var userTypeChartLabels = [];
+        //var userTypeChartValues = [];
+        //var userTypeChartColores = [];
+
+        var contentTypeChartLabels = [];
+        var contentTypeChartValues = [];
+        var contentTypeChartColores = [];
+
+        var contentByMonthTypeChartLabels = [];
+        var contentByMonthTypeChartValues = [];
+        var contentByMonthTypeChartColores = [];
+
+
+        //$.ajax({
+        //    url: "/Home/GetUserTypeChartData", success: function (result) {
+        //        $(result).each(function (index) {
+        //            userTypeChartLabels.push(result[index].key);
+        //            userTypeChartValues.push(result[index].value);
+        //            userTypeChartColores.push(result[index].color);
+        //        });
+        //        var userTypeChart = new Chart(userTypeCanvas, {
+        //            type: 'pie',
+        //            data: {
+        //                labels: userTypeChartLabels,
+        //                datasets: [{
+        //                    label: '# of Votes',
+        //                    data: userTypeChartValues,
+        //                    backgroundColor: userTypeChartColores
+        //                }]
+        //            },
+        //            options: {
+
+        //            }
+        //        });
+        //    }
+        //});
+
+
+        $.ajax({
+            url: "/Home/GetContentTypeChartData", success: function (result) {
+                $(result).each(function (index) {
+                    contentTypeChartLabels.push(result[index].key);
+                    contentTypeChartValues.push(result[index].value);
+                    contentTypeChartColores.push(result[index].color);
+                });
+                var contentTypeChart = new Chart(contentTypeCanvas, {
+                    type: 'pie',
+                    data: {
+                        labels: contentTypeChartLabels,
+                        datasets: [{
+                            label: '# of Votes',
+                            data: contentTypeChartValues,
+                            backgroundColor: contentTypeChartColores
+                        }]
+                    },
+                    options: {
+
+                    }
+                });
+            }
+        });
+
+        $.ajax({
+            url: "/Home/GetContentByMonthChartData", success: function (result) {
+                $(result).each(function (index) {
+                    contentByMonthTypeChartLabels.push(result[index].key);
+                    contentByMonthTypeChartValues.push(result[index].value);
+                    contentByMonthTypeChartColores.push(result[index].color);
+                });
+                var contentByMonthTypeChart = new Chart(contentByMonthChartCanvas, {
+                    type: 'bar',
+                    data: {
+                        labels: contentByMonthTypeChartLabels,
+                        datasets: [{
+                            label: '# of Votes',
+                            data: contentByMonthTypeChartValues,
+                            backgroundColor: contentByMonthTypeChartColores
+                        }]
+                    },
+                    options: {
+
+                    }
+                });
+            }
+        });
+
+    </script>
+}
+
+
+

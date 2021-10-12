@@ -15,5 +15,7 @@ namespace ProCar.Data
         }
         public DbSet<Leases> leases { get; set; }
         public DbSet<Car> Cars { get; set; }
+
+        
     }
 }

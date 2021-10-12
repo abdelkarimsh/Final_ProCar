@@ -86,7 +86,15 @@ namespace ProCar.Infrastructure.Services.Users
         }
 
 
-
+        public UserViewModel GetUserByUsername(string username)
+        {
+            var user = _db.Users.SingleOrDefault(x => x.UserName == username && !x.IsDelete);
+            if (user == null)
+            {
+                throw new EntityNotFoundException();
+            }
+            return _mapper.Map<UserViewModel>(user);
+        }
 
 
 
@@ -161,7 +169,7 @@ namespace ProCar.Infrastructure.Services.Users
 
         public async Task<List<UserViewModel>> GetUsersList()
         {
-            var user = await _db.Cars.Where(x => !x.IsDelete).ToListAsync();
+            var user = await _db.Users.Where(x => !x.IsDelete).ToListAsync();
             return _mapper.Map<List<UserViewModel>>(user);
         }
 

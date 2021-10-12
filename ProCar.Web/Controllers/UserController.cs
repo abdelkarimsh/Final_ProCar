@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 
 namespace ProCar.Web.Controllers
 {
-    public class UserController : Controller
+    public class UserController : BaseController
     {
         private readonly IUserService _IUserService;
-        public UserController(IUserService _IUserService)
+        public UserController(IUserService _IUserService) : base(_IUserService)
         {
             this._IUserService = _IUserService;
         }

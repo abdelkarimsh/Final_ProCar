@@ -15,19 +15,19 @@ namespace ProCar.Infrastructure.AutoMapper
         public MapperProfile()
         {
 
-            CreateMap<User, UserViewModel>();
+            CreateMap<User, UserViewModel>().ForMember(x => x.CreatedAt, x => x.ToString()); ;
             CreateMap<CreateUserDto, User>().ForMember(x => x.ImageUrl, x => x.Ignore());
             CreateMap<UpdateUserDto, User>().ForMember(x => x.ImageUrl, x => x.Ignore());
             CreateMap<User, UpdateUserDto>().ForMember(x => x.Imege, x => x.Ignore());
 
-            CreateMap<Car, CarViewModel>().ForMember(x => x.MakerName, x => x.MapFrom(x => x.MakerName.ToString())).ForMember(x => x.ColorId, x => x.MapFrom(x => x.ColorId.ToString())); 
+            CreateMap<Car, CarViewModel>().ForMember(x => x.MakerName, x => x.MapFrom(x => x.MakerName.ToString())).ForMember(x => x.ColorId, x => x.MapFrom(x => x.ColorId.ToString()));
             CreateMap<CreateCarDto, Car>().ForMember(x => x.ImegUrl, x => x.Ignore());
 
 
-            CreateMap<Leases, LeaseViewModel>().ForMember(x => x.LegaldocumentImegUrl, x => x.Ignore());
+            CreateMap<Leases, LeaseViewModel>().ForMember(x => x.LegaldocumentImegUrl, x => x.Ignore()).ForMember(x => x.StartRent, x => x.MapFrom(x => x.StartRent.ToString("yyyy:MM:dd"))).ForMember(x => x.EndRent, x => x.MapFrom(x => x.EndRent.ToString("yyyy:MM:dd")));
             CreateMap<CreateLeaseDto, Leases>().ForMember(x => x.leasestatus, x => x.Ignore()).ForMember(x => x.LegaldocumentImegUrl, x => x.Ignore());
-
-
+            CreateMap<UpdateLeaseDto, Leases>().ForMember(x => x.LegaldocumentImegUrl, x => x.Ignore());
+            CreateMap<Leases, UpdateLeaseDto>().ForMember(x => x.LegaldocumentImeg, x => x.Ignore());
 
         }
 

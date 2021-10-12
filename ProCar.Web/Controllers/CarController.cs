@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ProCar.Core.Conestants;
 using ProCar.Core.Dtos;
 using ProCar.Core.ViewModels;
 using ProCar.Infrastructure.Services.car;
+using ProCar.Infrastructure.Services.Users;
 using ProCars.Core.Dtos;
 using System;
 using System.Collections.Generic;
@@ -11,11 +13,11 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace ProCar.Web.Controllers
-{
-    public class Car : Controller
+{ 
+    public class Car : BaseController
     {
         private readonly ICarService ICarService;
-        public Car(ICarService _IUserService)
+        public Car(ICarService _IUserService, IUserService UserService) : base(UserService)
         {
             this.ICarService = _IUserService;
         }
@@ -52,11 +54,17 @@ namespace ProCar.Web.Controllers
             //ViewData["authores"] = new SelectList(await _userService.GetAuthorList(), "Id", "FullName");
             return View(dto);
         }
-
-        //public async Task<List<CarViewModel>> CarInSer()
-        //{
-        //    var result =  ICarService.GetInServiceCars();
-        //    return View(result);
-        //}
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await ICarService.Delete(id);
+            return Ok(Results.DeleteSuccessResult());
+        }
+        [AllowAnonymous]
+        public async Task<IActionResult> GeAllCarsCarsAsViewModel()
+        {
+            var Cars =await ICarService.GeAllCarsCarsAsViewModel();
+            return View(Cars);
+        }
     }
 }

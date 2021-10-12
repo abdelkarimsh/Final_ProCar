@@ -15,10 +15,12 @@ namespace ProCar.Core.Dtos
         public int Id { get; set; }
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "تاريخ بداية عقد الايجار ")]
+        [DataType(DataType.Date)]
         public DateTime StartRent { get; set; }
 
         [Required(ErrorMessage = "هذاالحقل مطلوب")]
         [Display(Name = "تاريخ نهاية عقد الايجار ")]
+        [DataType(DataType.Date)]
         public DateTime EndRent { get; set; }
 
         [Required(ErrorMessage = "هذاالحقل مطلوب")]

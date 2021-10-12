@@ -11,8 +11,8 @@ namespace ProCar.Core.ViewModels
     public class CarViewModel
     {
         public int Id { get; set; }
-        public MakerName MakerName { get; set; }
-        public ColorId ColorId { get; set; }
+        public string MakerName { get; set; }
+        public string ColorId { get; set; }
         public string ChassiNumber { get; set; }
         public string ImegUrl { get; set; }
         public float PriceOnDay { get; set; }

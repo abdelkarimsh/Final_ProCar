@@ -90,15 +90,17 @@ namespace ProCar.Infrastructure.Services
         }
 
 
-        public async Task<List<CarViewModel>> GetbusyCars()
+        public async Task<List<CarViewModel>> GeAllCarsCarsAsViewModel ()
         {
-            var carbusy = await _db.Cars.Where(x => x.CarStatus == ProCars.Core.Enums.CarStatus.Busy && !x.IsDelete).ToListAsync();
-            if (carbusy == null)
+            var cars = await _db.Cars.Where(x =>!x.IsDelete).ToListAsync();
+            if (cars == null)
             {
                 throw new CarBusyNotFoundException();
             }
-            return _mapper.Map<List<CarViewModel>>(carbusy);
+            return _mapper.Map<List<CarViewModel>>(cars);
         }
+
+
         public async Task<List<CarViewModel>> GetInServiceCars()
         {
             var carbusy = await _db.Cars.Where(x => x.CarStatus == ProCars.Core.Enums.CarStatus.InService && !x.IsDelete).ToListAsync();

@@ -16,9 +16,9 @@ namespace ProCar.Core.ViewModels
 
         public int Id { get; set; }
 
-        public DateTime StartRent { get; set; }
+        public string StartRent { get; set; }
 
-        public DateTime EndRent { get; set; }
+        public string EndRent { get; set; }
 
         public leaseStatus leasestatus { get; set; }
 

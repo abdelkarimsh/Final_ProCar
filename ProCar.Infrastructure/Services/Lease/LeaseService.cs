@@ -82,6 +82,8 @@ namespace ProCar.Infrastructure.Services.Lease
 
         public async Task<int> Create(CreateLeaseDto dto)
         {
+
+
             var lease = _mapper.Map<Leases>(dto);
             if (dto.LegaldocumentImeg != null)
             {

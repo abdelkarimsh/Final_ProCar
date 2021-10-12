@@ -12,6 +12,7 @@ using ProCar.Data.Models;
 using ProCar.Infrastructure.AutoMapper;
 using ProCar.Infrastructure.Services;
 using ProCar.Infrastructure.Services.car;
+using ProCar.Infrastructure.Services.Dashboard;
 using ProCar.Infrastructure.Services.Lease;
 using ProCar.Infrastructure.Services.Users;
 using System;
@@ -48,14 +49,15 @@ namespace ProCar.Web
                 config.Password.RequireNonAlphanumeric = false;
                 config.Password.RequireUppercase = false;
                 config.SignIn.RequireConfirmedEmail = false;
-            }).AddEntityFrameworkStores<ProCarDbContext>()
+            }).AddEntityFrameworkStores<ProCarDbContext>().
+                AddDefaultUI()
                .AddDefaultTokenProviders();
 
             services.AddRazorPages();
 
 
 
-        
+
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddAutoMapper(typeof(MapperProfile).Assembly);
@@ -67,9 +69,11 @@ namespace ProCar.Web
             services.AddTransient<IUserService, UserService>();
 
             services.AddTransient<ICarService, CarService>();
-             services.AddTransient<ILeaseService, LeaseService>();
-        }
+            services.AddTransient<ILeaseService, LeaseService>();
+            services.AddTransient<IDashboardService, DashboardService>();
 
+
+        }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -96,9 +100,13 @@ namespace ProCar.Web
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Car}/{action=GeAllCarsCarsAsViewModel}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
     }
 }
+
+
+    
+

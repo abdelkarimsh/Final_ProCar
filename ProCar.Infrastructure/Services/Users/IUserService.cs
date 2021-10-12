@@ -17,5 +17,6 @@ namespace ProCar.Infrastructure.Services.Users
         Task<string> Create(CreateUserDto dto);
         Task<string> Update(UpdateUserDto dto);
         Task<List<UserViewModel>> GetUsersList();
+        UserViewModel GetUserByUsername(string username);
     }
 }
