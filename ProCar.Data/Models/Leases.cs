@@ -38,6 +38,8 @@ namespace ProCar.Data.Models
         public Leases()
         {
             leasestatus = leaseStatus.Active;
+            Approval = ApprovalStatus.Pending;
+
         }
 
 

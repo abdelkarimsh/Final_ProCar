@@ -11,6 +11,7 @@ namespace ProCar.Infrastructure.Services.Dashboard
     {
         Task<List<PieChartViewModel>> GetContentByMonthChart();
         Task<DashboardViewModel> GetData();
+        Task<List<PieChartViewModel>> GetCarsTypeChartData();
 
     }
 }

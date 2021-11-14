@@ -21,8 +21,14 @@ namespace ProCar.Data
             {
                 var context = scope.ServiceProvider.GetRequiredService<ProCarDbContext>();
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
-                 context.SeedCar().Wait();
-                 userManager.SeedUser().Wait();
+                var roleManger = scope.ServiceProvider.GetRequiredService <RoleManager<IdentityRole>>();
+                context.SeedCar().Wait();
+                userManager.SeedUser().Wait();
+                roleManger.SeedRoles().Wait();
+
+                //userManager.seed().Wait();
+
+
 
             }
             catch (Exception ex)
@@ -62,6 +68,36 @@ namespace ProCar.Data
 
             await userManger.CreateAsync(user, "Admin1596357##");
         }
+        public static async Task SeedRoles( this RoleManager<IdentityRole> _roleManger)
+        {
+            if (await _roleManger.Roles.AnyAsync())
+            {
+                return;
+
+            }
+            var roles = new List<string>();
+            roles.Add("Adminstrator");
+            roles.Add("Customer");
+            foreach (var role in roles)
+            {
+                await _roleManger.CreateAsync(new IdentityRole(role));
+            }
+        } 
+        //public static async Task seed(this UserManager<User> userManger)
+        //{
+        //    var user =await userManger.Users.ToListAsync();
+        //    foreach(var u in user)
+        //    {
+        //        if (u.Type == UserType.Adminstrator)
+        //        {
+        //            await userManger.AddToRoleAsync(u, "Adminstrator");
+        //        }
+        //        if (u.Type == UserType.Customer)
+        //        {
+        //            await userManger.AddToRoleAsync(u, "Customer");
+        //        }
+        //    }
+        //}
 
 
 

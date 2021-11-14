@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProCar.Core.Conestants;
 using ProCar.Core.Dtos;
+using ProCar.Core.Enums;
 using ProCar.Core.Exceptions;
 using ProCar.Core.ViewModels;
 using ProCar.Data;
@@ -129,6 +130,14 @@ namespace ProCar.Infrastructure.Services.Users
                 {
                     throw new OperationFailedException();
                 }
+                if (dto.Type == UserType.Adminstrator)
+                {
+                    await _userManager.AddToRoleAsync(user,"Adminstrator");
+                }
+                else
+                {
+                    await _userManager.AddToRoleAsync(user,"Customer");
+                }
 
             }
             catch (Exception e)
@@ -173,20 +182,6 @@ namespace ProCar.Infrastructure.Services.Users
             return _mapper.Map<List<UserViewModel>>(user);
         }
 
-
-        public  async Task<UserViewModel> GetUsersLesas(string Id)
-        {
-            var user = await _db.Users.Include(x => x.lease).SingleOrDefaultAsync(x =>!x.IsDelete&&x.Id==Id);
-            if (user == null)
-            {
-                throw new EntityNotFoundException();
-            }
-            var leas= _mapper.Map < List<LeaseViewModel>>(user.lease);
-            var userViewModel=_mapper.Map<UserViewModel>(user);
-            userViewModel.lease = leas;
-            return userViewModel;
-
-        }
 
 
 

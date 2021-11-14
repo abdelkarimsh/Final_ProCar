@@ -63,40 +63,18 @@
 
 
     <script>
-        //var userTypeCanvas = document.getElementById('userTypeChart').getContext('2d');
-        //var contentTypeCanvas = document.getElementById('contentTypeChart').getContext('2d');
+
+        var contentTypeCanvas = document.getElementById('contentTypeChart').getContext('2d');
         var contentByMonthChartCanvas = document.getElementById('contentByMonthChart').getContext('2d');
-        //var userTypeChartLabels = [];
-        //var userTypeChartValues = [];
-        //var userTypeChartColores = [];
+
         var contentTypeChartLabels = [];
         var contentTypeChartValues = [];
         var contentTypeChartColores = [];
+
         var contentByMonthTypeChartLabels = [];
         var contentByMonthTypeChartValues = [];
         var contentByMonthTypeChartColores = [];
-        //$.ajax({
-        //    url: "/Home/GetUserTypeChartData", success: function (result) {
-        //        $(result).each(function (index) {
-        //            userTypeChartLabels.push(result[index].key);
-        //            userTypeChartValues.push(result[index].value);
-        //            userTypeChartColores.push(result[index].color);
-        //        });
-        //        var userTypeChart = new Chart(userTypeCanvas, {
-        //            type: 'pie',
-        //            data: {
-        //                labels: userTypeChartLabels,
-        //                datasets: [{
-        //                    label: '# of Votes',
-        //                    data: userTypeChartValues,
-        //                    backgroundColor: userTypeChartColores
-        //                }]
-        //            },
-        //            options: {
-        //            }
-        //        });
-        //    }
-        //});
+
         $.ajax({
             url: "/Home/GetContentTypeChartData", success: function (result) {
                 $(result).each(function (index) {

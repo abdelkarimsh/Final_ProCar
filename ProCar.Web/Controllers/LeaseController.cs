@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ProCar.Core.Conestants;
 using ProCar.Core.Dtos;
+using ProCar.Core.Enums;
 using ProCar.Infrastructure.Services.car;
 using ProCar.Infrastructure.Services.Lease;
 using ProCar.Infrastructure.Services.Users;
@@ -29,7 +30,7 @@ namespace ProCar.Web.Controllers
 
         public async Task<JsonResult> GetLeasesData(Pagination pagination, Query query)
         {
-            var result = await ILeaseService.GetAll(pagination, query);
+            var result = await ILeaseService.GetAll(pagination,query);
             return Json(result);
 
         }
@@ -92,34 +93,34 @@ namespace ProCar.Web.Controllers
             await  ILeaseService.Delete(id);
             return Ok(Results.DeleteSuccessResult());
         }
-
-
-
-
-
-
-
-
         [HttpGet]
-        public IActionResult ViewUserLeases()
+        public IActionResult ViewUserLeases(string userId)
         {
             return View();
         }
-
-
-        public async Task<JsonResult> GetUserLeases(string Id,Pagination pagination)
+  
+        public async Task<JsonResult> GetUserLeases(Pagination pagination, Query query,string userId)
         {
-            var result = await ILeaseService.GetUserLeases(Id , pagination);
-            return Json(result);
-
+            userId = ViewBag.UserId;
+            var resalt = await ILeaseService.GetUserLeases( pagination, query, userId);
+            return Json(resalt);
         }
-
-   
+  
 
         [HttpGet]
         public async Task<IActionResult> ExportToExcel()
         {
             return File(await ILeaseService.ExportToExcel(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "report.xlsx");
+        }
+
+
+
+        [HttpPut]
+        
+        public async Task<IActionResult> UpdateStatus(int id, ApprovalStatus status)
+        {
+            await ILeaseService.UpdateStatus(id, status);
+            return Ok(Results.UpdateStatusSuccessResult());
         }
     }
 }

@@ -1,0 +1,51 @@
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.AssemblyReference.cache
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.AssemblyInfoInputs.cache
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.AssemblyInfo.cs
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.CoreCompileInputs.cache
+E:\asp.net projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.deps.json
+E:\asp.net projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ref\ProCar.Infrastructure.dll
+E:\asp.net projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.pdb
+E:\asp.net projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.CopyComplete
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ref\ProCar.Infrastructure.dll
+E:\asp.net projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.pdb
+E:\asp.net_projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.deps.json
+E:\asp.net_projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net_projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ref\ProCar.Infrastructure.dll
+E:\asp.net_projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.pdb
+E:\asp.net_projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net_projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net_projects\asp\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.AssemblyReference.cache
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.AssemblyInfoInputs.cache
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.AssemblyInfo.cs
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.CoreCompileInputs.cache
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.CopyComplete
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ref\ProCar.Infrastructure.dll
+E:\asp.net_projects\asp\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.deps.json
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\bin\Debug\net5.0\ref\ProCar.Infrastructure.dll
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Infrastructure.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.AssemblyReference.cache
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.AssemblyInfoInputs.cache
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.AssemblyInfo.cs
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.CoreCompileInputs.cache
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.csproj.CopyComplete
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ref\ProCar.Infrastructure.dll
+E:\asp.net_projects\final_ProCar\ProCar.Infrastructure\obj\Debug\net5.0\ProCar.Infrastructure.pdb

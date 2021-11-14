@@ -74,19 +74,7 @@ namespace ProCar.Web.Controllers
             return Ok(Results.DeleteSuccessResult());
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetLeases(string id)
-        {
-            var user =await _UserService.GetUsersLesas(id);
-            return View(user);
-        }
 
-        //public async Task<JsonResult> GetLeases(string id, Pagination pagination)
-        //{
-
-        //    var user = _UserService.GetUsersLesas(id);
-        //    return Json(user);
-        //}
 
 
     }

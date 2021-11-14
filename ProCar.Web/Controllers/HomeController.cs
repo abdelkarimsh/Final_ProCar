@@ -20,23 +20,23 @@ namespace ProCar.Web.Controllers
             _dashboardService = dashboardService;
         }
 
-
         public async Task<IActionResult> Index()
         {
             var data = await _dashboardService.GetData();
             return View(data);
         }
-        [AllowAnonymous]
+
         [HttpGet]
         public async Task<IActionResult> GetContentByMonthChartData()
         {
             var data = await _dashboardService.GetContentByMonthChart();
             return Ok(data);
         }
-        //public async Task<IActionResult> GetCarsTypeChartData()
-        //{
-        //    var data = await _dashboardService.GetCarsTypeChartData();
-        //    return Ok(data);
-        //}
+        [HttpGet]
+        public async Task<IActionResult> GetContentTypeChartData()
+        {
+            var data = await _dashboardService.GetCarsTypeChartData();
+            return Ok(data);
+        }
     }
 }

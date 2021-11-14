@@ -1,0 +1,738 @@
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.AssemblyReference.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.AssemblyInfoInputs.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.AssemblyInfo.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.CoreCompileInputs.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorAssemblyInfo.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorAssemblyInfo.cs
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\appsettings.Development.json
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\appsettings.json
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.StaticWebAssets.xml
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.exe
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.deps.json
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.runtimeconfig.json
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.runtimeconfig.dev.json
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ref\ProCar.Web.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.pdb
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.Views.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.Views.pdb
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\AutoMapper.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Humanizer.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\MimeKit.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Infrastructure.pdb
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\staticwebassets\ProCar.Web.StaticWebAssets.Manifest.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\staticwebassets\ProCar.Web.StaticWebAssets.xml
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\scopedcss\bundle\ProCar.Web.styles.css
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.TagHelpers.input.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.TagHelpers.output.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorCoreGenerate.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorTargetAssemblyInfo.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorTargetAssemblyInfo.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.Views.pdb
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.CopyComplete
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.dll
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ref\ProCar.Web.dll
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.pdb
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.genruntimeconfig.cache
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_CpLayout.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Create.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\Index.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\Create.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Update.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Create.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Index.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Update.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\GeAllCarsCarsAsViewModel.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Hangfire.Core.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\Hangfire.SqlServer.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\GetLeases.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\ViewUserLeases.cshtml.g.cs
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ClosedXML.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\ExcelNumberFormat.dll
+E:\asp.net projects\asp\ProCar.Web\bin\Debug\net5.0\System.IO.Packaging.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\appsettings.Development.json
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\appsettings.json
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.StaticWebAssets.xml
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.exe
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.deps.json
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.runtimeconfig.json
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.runtimeconfig.dev.json
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ref\ProCar.Web.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.pdb
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.Views.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Web.Views.pdb
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\AutoMapper.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ClosedXML.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ExcelNumberFormat.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Hangfire.Core.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Hangfire.SqlServer.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Humanizer.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\MimeKit.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.IO.Packaging.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Infrastructure.pdb
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\asp\ProCar.Web\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.AssemblyReference.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.AssemblyInfoInputs.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.AssemblyInfo.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.CoreCompileInputs.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorAssemblyInfo.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorAssemblyInfo.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\staticwebassets\ProCar.Web.StaticWebAssets.Manifest.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\staticwebassets\ProCar.Web.StaticWebAssets.xml
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\scopedcss\bundle\ProCar.Web.styles.css
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.TagHelpers.input.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.TagHelpers.output.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorCoreGenerate.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\Create.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\Index.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Create.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Index.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Update.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\ViewUserLeases.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_CpLayout.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Create.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\GetLeases.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Update.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorTargetAssemblyInfo.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorTargetAssemblyInfo.cs
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.Views.pdb
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.CopyComplete
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.dll
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ref\ProCar.Web.dll
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.pdb
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\ProCar.Web.genruntimeconfig.cache
+E:\asp.net_projects\asp\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\GeAllCarsAsViewModel.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\appsettings.Development.json
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\appsettings.json
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.StaticWebAssets.xml
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.exe
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.deps.json
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.runtimeconfig.json
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.runtimeconfig.dev.json
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ref\ProCar.Web.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.Views.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Web.Views.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\AutoMapper.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ClosedXML.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ExcelNumberFormat.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Hangfire.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Hangfire.SqlServer.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Humanizer.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\MimeKit.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.IO.Packaging.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Infrastructure.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Infrastructure.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.AssemblyReference.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.AssemblyInfoInputs.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.AssemblyInfo.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.CoreCompileInputs.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorAssemblyInfo.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorAssemblyInfo.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\staticwebassets\ProCar.Web.StaticWebAssets.Manifest.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\staticwebassets\ProCar.Web.StaticWebAssets.xml
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\scopedcss\bundle\ProCar.Web.styles.css
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.TagHelpers.input.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.TagHelpers.output.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorCoreGenerate.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\Create.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\GeAllCarsAsViewModel.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Car\Index.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Create.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Index.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\Update.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Lease\ViewUserLeases.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_CpLayout.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Create.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\GetLeases.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\User\Update.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorTargetAssemblyInfo.cache
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.RazorTargetAssemblyInfo.cs
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.Views.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.csproj.CopyComplete
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ref\ProCar.Web.dll
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Web\obj\Debug\net5.0\ProCar.Web.genruntimeconfig.cache

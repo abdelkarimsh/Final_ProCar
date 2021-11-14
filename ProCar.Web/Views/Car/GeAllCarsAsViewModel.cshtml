@@ -1,0 +1,111 @@
+﻿@model List<CarViewModel>
+<style>
+    .card {
+        margin-bottom: 10px;
+        margin-left:10px;
+    }
+</style>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 card-img-top " style="height:400px;" src="~/ThemImages/download.png" alt="First slide">
+            </div>
+        
+        </div>
+    </div>
+
+
+
+
+<br />
+<hr />
+
+
+
+@if (Model.Any())
+{
+
+    <div class="card-group">
+        @foreach (var car in Model)
+        {
+            <div >
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="~/Images/@car.ImegUrl" style="height: 300px; " alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Maker Name : @car.MakerName</h5>
+                                <h5>Color : @car.ColorId</h5>
+                                <h4>Price On Day : @car.PriceOnDay $</h4>
+                                <a class="btn btn-primary" href="~/Lease/ViewUserLeases/@ViewBag.UserId">احجز الان </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+         }
+
+
+    </div>
+ }
+            else
+            {
+            <div class="alert alert-warning">
+                No Data in our database !
+            </div>
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @*<div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>*@
+
+            @*div class="card mb-3">
+                    <div class></div>
+                    <img class="card-img-top" src="~/ThemImages/download.png"  style="width:700px;height:300px;" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">لتأجير السيارات</h5>
+                        <p class="card-text"><small class="text-muted">افضل خيار لراحتكم</small></p>
+                    </div>
+                </div>*@

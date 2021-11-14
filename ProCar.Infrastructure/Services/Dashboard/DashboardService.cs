@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProCar.Core.Enums;
 using ProCar.Core.ViewModels;
 using ProCar.Data;
 using System;
@@ -113,25 +114,56 @@ namespace ProCar.Infrastructure.Services.Dashboard
             return String.Format("#{0:X6}", random.Next(0x1000000));
         }
 
-        //public async Task<List<PieChartViewModel>> GetContentTypeChart()
-        //{
+        public async Task<List<PieChartViewModel>> GetCarsTypeChartData()
+        {
 
-        //    var data = new List<PieChartViewModel>();
-        //    data.Add(new PieChartViewModel()
-        //    {
-        //        Key = "Post",
-        //        Value = await _db.Cars.Where(x=>x.MakerName=="").CountAsync(x => !x.IsDelete),
-        //        color = GenrateColor()
-        //    });
-        //    data.Add(new PieChartViewModel()
-        //    {
-        //        Key = "Track",
-        //        Value = await _db.Cars.CountAsync(x => !x.IsDelete),
-        //        color = GenrateColor()
-        //    });
+            var data = new List<PieChartViewModel>();
+            data.Add(new PieChartViewModel()
+            {
+                Key = "Golf",
+                Value = await _db.Cars.Where(x => x.MakerName == MakerName.Golf).CountAsync(x => !x.IsDelete),
+                color = GenrateColor()
+            });
+            data.Add(new PieChartViewModel()
+            {
+                Key = "Honda",
+                Value = await _db.Cars.Where(x => x.MakerName == MakerName.Honda).CountAsync(x => !x.IsDelete),
+                color = GenrateColor()
+            });
+            data.Add(new PieChartViewModel()
+            {
+                Key = "Mazda",
+                Value = await _db.Cars.Where(x => x.MakerName == MakerName.Mazda).CountAsync(x => !x.IsDelete),
+                color = GenrateColor()
+            });
+            data.Add(new PieChartViewModel()
+            {
+                Key = "Mitsubishi",
+                Value = await _db.Cars.Where(x => x.MakerName == MakerName.Mitsubishi).CountAsync(x => !x.IsDelete),
+                color = GenrateColor()
+            });
+            data.Add(new PieChartViewModel()
+            {
+                Key = "Nissan",
+                Value = await _db.Cars.Where(x => x.MakerName == MakerName.Nissan).CountAsync(x => !x.IsDelete),
+                color = GenrateColor()
+            });
+            data.Add(new PieChartViewModel()
+            {
+                Key = "Skoda",
+                Value = await _db.Cars.Where(x => x.MakerName == MakerName.Skoda).CountAsync(x => !x.IsDelete),
+                color = GenrateColor()
+            });
+            data.Add(new PieChartViewModel()
+            {
+                Key = "Toyota",
+                Value = await _db.Cars.Where(x => x.MakerName == MakerName.Toyota).CountAsync(x => !x.IsDelete),
+                color = GenrateColor()
+            });
 
-        //    return data;
-        //}
+
+            return data;
+        }
 
 
 

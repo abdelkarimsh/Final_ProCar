@@ -1,3 +1,11 @@
 ﻿@{
-    Layout = "_CpLayout";
+    if(ViewBag.UserType == null)
+    {
+        Layout = "_Layout";
+    }
+    else
+    {
+        Layout = "_CpLayout";
+    }
+
 }

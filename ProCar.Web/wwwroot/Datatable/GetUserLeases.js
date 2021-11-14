@@ -39,37 +39,37 @@ var KTDatatableAutoColumnHideDemo = function () {
             // columns definition
             columns: [{
                 field: 'startRent',
-                title: ' «—ÌŒ «·»œ«Ì…',
+                title: 'Start Rent',
                 width: 'auto'
             }, {
                 field: 'endRent',
-                title: ' «—ÌŒ «·‰Â«Ì… ',
+                title: 'End Rent',
                 width: 'auto'
             }
                 , {
                 field: 'leasestatus',
-                title: 'Õ«·… «·⁄ﬁœ ',
+                    title: 'Lease Status',
                 width: 'auto'
             },
             {
-                field: 'user.fullName',
-                title: '«”„ «·“»Ê‰ ',
+                field: 'totalPrice',
+                title: 'Total Price',
                 width: 'auto'
             },
             {
                 field: 'car.makerName',
-                title: '‰Ê⁄ «·”Ì«—… ',
+                title: 'Maker Name ',
                 width: 'auto'
             },
             {
                 field: 'Actions',
-                title: '«·⁄„·Ì« ',
+                title: 'Actions',
                 sortable: false,
                 width: 125,
                 overflow: 'visible',
                 autoHide: false,
                 template: function (data) {
-                    return '\<a  href ="/Lease/Update/' + data.id + '" class="PopUp btn btn-sm btn-clean btn-icon mr-2" title=" ⁄œÌ·  »Ì«‰«   ⁄ﬁœ «·«ÌÃ«—  ">\
+                    return  '\<a  href ="/Lease/Update/' + data.id + '" class="PopUp btn btn-sm btn-clean btn-icon mr-2" title=" ⁄œÌ·  »Ì«‰«  ' + data.title + ' ">\
                             <span class="svg-icon svg-icon-warning svg-icon-md">\
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">\
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\
@@ -91,6 +91,9 @@ var KTDatatableAutoColumnHideDemo = function () {
                                 </svg>\
                             </span>\
                         </a>';
+
+
+
                 },
             }],
         });

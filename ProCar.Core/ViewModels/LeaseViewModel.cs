@@ -24,7 +24,7 @@ namespace ProCar.Core.ViewModels
 
         public double TotalPrice { get; set; }
 
-        public ApprovalStatus Approval { get; set; }
+        public string Approval { get; set; }
 
         public UserViewModel User { get; set; }
 

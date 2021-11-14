@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProCar.Core.Conestants;
 using ProCar.Core.Dtos;
+using ProCar.Core.Enums;
 using ProCar.Core.Exceptions;
 using ProCar.Core.ViewModels;
 using ProCar.Data;
@@ -88,12 +90,17 @@ namespace ProCar.Infrastructure.Services.Lease
             {
                 throw new InvalidDataException();
             }
-
+            var car = _db.Cars.SingleOrDefault(x => x.Id == dto.CarId);
+            if (car == null)
+            {
+                throw new  EntityNotFoundException();
+            }
             var lease = _mapper.Map<Leases>(dto);
             if (dto.LegaldocumentImeg != null)
             {
                 lease.LegaldocumentImegUrl = await _fileService.SaveFile(dto.LegaldocumentImeg, FolderNames.ImagesFolder);
             }
+            lease.TotalPrice = ((lease.EndRent - lease.StartRent).TotalDays)* car.PriceOnDay;
             await _db.leases.AddAsync(lease);
             await _db.SaveChangesAsync();
             return lease.Id;
@@ -126,31 +133,31 @@ namespace ProCar.Infrastructure.Services.Lease
 
 
 
-        public async Task<ResponseDto> GetCarLeases(int Id, Pagination pagination)
-        {
-            var Leases = _db.leases.Include(x => x.Car).Where(x => !x.IsDelete && x.CarId == Id).AsQueryable();
+        //public async Task<ResponseDto> GetCarLeases(int Id, Pagination pagination)
+        //{
+        //    var Leases = _db.leases.Include(x => x.Car).Where(x => !x.IsDelete && x.CarId == Id).AsQueryable();
 
-            var dataCount = Leases.Count();
-            var skipValue = pagination.GetSkipValue();
-            var dataList = await Leases.Skip(skipValue).Take(pagination.PerPage).ToListAsync();
-            var leases = _mapper.Map<List<LeaseViewModel>>(dataList);
-            var pages = pagination.GetPages(dataCount);
-            var result = new ResponseDto
-            {
-                data = leases,
-                meta = new Meta
-                {
-                    page = pagination.Page,
-                    perpage = pagination.PerPage,
-                    pages = pages,
-                    total = dataCount,
-                }
-            };
-            return result;
+        //    var dataCount = Leases.Count();
+        //    var skipValue = pagination.GetSkipValue();
+        //    var dataList = await Leases.Skip(skipValue).Take(pagination.PerPage).ToListAsync();
+        //    var leases = _mapper.Map<List<LeaseViewModel>>(dataList);
+        //    var pages = pagination.GetPages(dataCount);
+        //    var result = new ResponseDto
+        //    {
+        //        data = leases,
+        //        meta = new Meta
+        //        {
+        //            page = pagination.Page,
+        //            perpage = pagination.PerPage,
+        //            pages = pages,
+        //            total = dataCount,
+        //        }
+        //    };
+        //    return result;
 
-        }  
+        //}  
 
-        public async Task<ResponseDto> GetUserLeases(string Id, Pagination pagination)
+        public async Task<ResponseDto> GetUserLeases(Pagination pagination, Query query, string Id)
         {
             var Leases = _db.leases.Include(x => x.Car).Include(x=>x.User).Where(x => !x.IsDelete && x.UserId == Id).AsQueryable();
 
@@ -197,7 +204,20 @@ namespace ProCar.Infrastructure.Services.Lease
             })));
         }
 
+        public async Task<int> UpdateStatus(int id, ApprovalStatus status)
+        {
+            var lease =await  _db.leases.SingleOrDefaultAsync(x => x.Id == id! & x.IsDelete);
+            if (lease == null)
+            {
+                throw new EntityNotFoundException();
+            }
+            lease.Approval = status;
 
+            _db.leases.Update(lease);
+           await  _db.SaveChangesAsync();
+            return lease.Id;
+
+        }
 
     }
 }

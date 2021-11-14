@@ -1,0 +1,36 @@
+E:\asp.net projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.csproj.AssemblyReference.cache
+E:\asp.net projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.AssemblyInfoInputs.cache
+E:\asp.net projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.AssemblyInfo.cs
+E:\asp.net projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.csproj.CoreCompileInputs.cache
+E:\asp.net projects\asp\ProCar.Core\bin\Debug\net5.0\ProCar.Core.deps.json
+E:\asp.net projects\asp\ProCar.Core\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net projects\asp\ProCar.Core\bin\Debug\net5.0\ref\ProCar.Core.dll
+E:\asp.net projects\asp\ProCar.Core\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.dll
+E:\asp.net projects\asp\ProCar.Core\obj\Debug\net5.0\ref\ProCar.Core.dll
+E:\asp.net projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\asp\ProCar.Core\bin\Debug\net5.0\ProCar.Core.deps.json
+E:\asp.net_projects\asp\ProCar.Core\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\asp\ProCar.Core\bin\Debug\net5.0\ref\ProCar.Core.dll
+E:\asp.net_projects\asp\ProCar.Core\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.csproj.AssemblyReference.cache
+E:\asp.net_projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net_projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.AssemblyInfoInputs.cache
+E:\asp.net_projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.AssemblyInfo.cs
+E:\asp.net_projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.csproj.CoreCompileInputs.cache
+E:\asp.net_projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\asp\ProCar.Core\obj\Debug\net5.0\ref\ProCar.Core.dll
+E:\asp.net_projects\asp\ProCar.Core\obj\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Core\bin\Debug\net5.0\ProCar.Core.deps.json
+E:\asp.net_projects\final_ProCar\ProCar.Core\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Core\bin\Debug\net5.0\ref\ProCar.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Core\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Core\obj\Debug\net5.0\ProCar.Core.csproj.AssemblyReference.cache
+E:\asp.net_projects\final_ProCar\ProCar.Core\obj\Debug\net5.0\ProCar.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net_projects\final_ProCar\ProCar.Core\obj\Debug\net5.0\ProCar.Core.AssemblyInfoInputs.cache
+E:\asp.net_projects\final_ProCar\ProCar.Core\obj\Debug\net5.0\ProCar.Core.AssemblyInfo.cs
+E:\asp.net_projects\final_ProCar\ProCar.Core\obj\Debug\net5.0\ProCar.Core.csproj.CoreCompileInputs.cache
+E:\asp.net_projects\final_ProCar\ProCar.Core\obj\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Core\obj\Debug\net5.0\ref\ProCar.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Core\obj\Debug\net5.0\ProCar.Core.pdb

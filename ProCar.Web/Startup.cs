@@ -122,7 +122,7 @@ namespace ProCar.Web
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Car}/{action=GeAllCarsCarsAsViewModel}/{id?}");
+                    pattern: "{controller=Car}/{action=GeAllCarsAsViewModel}/{id?}");
                 endpoints.MapRazorPages();
             });   
         }

@@ -61,10 +61,15 @@ namespace ProCar.Web.Controllers
             return Ok(Results.DeleteSuccessResult());
         }
         [AllowAnonymous]
-        public async Task<IActionResult> GeAllCarsCarsAsViewModel()
+        public async Task<IActionResult> GeAllCarsAsViewModel()
         {
             var Cars =await ICarService.GeAllCarsCarsAsViewModel();
             return View(Cars);
+
+        }
+        public IActionResult ViewCar()
+        {
+            return RedirectToAction("GeAllCarsAsViewModel");
         }
     }
 }

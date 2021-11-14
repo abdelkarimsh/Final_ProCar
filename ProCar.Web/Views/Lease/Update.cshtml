@@ -3,13 +3,11 @@
 @{
     ViewData["Title"] = "تعديل عقد الايجار";
 }
-
 <form asp-action="Update" class="ajaxForm" tname="#kt_datatable" enctype="multipart/form-data">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-    <input asp-for="Id" type="hidden" />
-
+   
     <div class="row">
+        <input asp-for="Id" type="hidden" />
         <div class="col-md-6">
             <div class="form-group">
                 <label asp-for="StartRent" class="control-label"></label>
@@ -35,24 +33,12 @@
                 <span asp-validation-for="CarId" class="text-danger"></span>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="UserId" class="control-label"></label>
-                @*<input asp-for="UserId" class="form-control" />*@
                 <select asp-for="UserId" class="form-control" asp-items="@ViewBag.Users">
                 </select>
                 <span asp-validation-for="UserId" class="text-danger"></span>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">
-            <div class="form-group">
-                <label asp-for="LegaldocumentImeg" class="control-label"></label>
-                <input asp-for="LegaldocumentImeg" class="form-control" />
-                <span asp-validation-for="LegaldocumentImeg" class="text-danger"></span>
             </div>
         </div>
     </div>
@@ -66,9 +52,11 @@
 </form>
 
 
+
 <script>
     PageLoadActions();
 </script>
 
 <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
 <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+

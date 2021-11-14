@@ -1,0 +1,54 @@
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.AssemblyReference.cache
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.AssemblyInfoInputs.cache
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.AssemblyInfo.cs
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.CoreCompileInputs.cache
+E:\asp.net projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.deps.json
+E:\asp.net projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.runtimeconfig.json
+E:\asp.net projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.runtimeconfig.dev.json
+E:\asp.net projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net projects\asp\ProCar.Data\bin\Debug\net5.0\ref\ProCar.Data.dll
+E:\asp.net projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.CopyComplete
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.dll
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ref\ProCar.Data.dll
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.genruntimeconfig.cache
+E:\asp.net_projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.deps.json
+E:\asp.net_projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.runtimeconfig.json
+E:\asp.net_projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.runtimeconfig.dev.json
+E:\asp.net_projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net_projects\asp\ProCar.Data\bin\Debug\net5.0\ref\ProCar.Data.dll
+E:\asp.net_projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net_projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\asp\ProCar.Data\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.AssemblyReference.cache
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.AssemblyInfoInputs.cache
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.AssemblyInfo.cs
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.CoreCompileInputs.cache
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.CopyComplete
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.dll
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ref\ProCar.Data.dll
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net_projects\asp\ProCar.Data\obj\Debug\net5.0\ProCar.Data.genruntimeconfig.cache
+E:\asp.net_projects\final_ProCar\ProCar.Data\bin\Debug\net5.0\ProCar.Data.deps.json
+E:\asp.net_projects\final_ProCar\ProCar.Data\bin\Debug\net5.0\ProCar.Data.runtimeconfig.json
+E:\asp.net_projects\final_ProCar\ProCar.Data\bin\Debug\net5.0\ProCar.Data.runtimeconfig.dev.json
+E:\asp.net_projects\final_ProCar\ProCar.Data\bin\Debug\net5.0\ProCar.Data.dll
+E:\asp.net_projects\final_ProCar\ProCar.Data\bin\Debug\net5.0\ref\ProCar.Data.dll
+E:\asp.net_projects\final_ProCar\ProCar.Data\bin\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Data\bin\Debug\net5.0\ProCar.Core.dll
+E:\asp.net_projects\final_ProCar\ProCar.Data\bin\Debug\net5.0\ProCar.Core.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.AssemblyReference.cache
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.AssemblyInfoInputs.cache
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.AssemblyInfo.cs
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.CoreCompileInputs.cache
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.csproj.CopyComplete
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.dll
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ref\ProCar.Data.dll
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.pdb
+E:\asp.net_projects\final_ProCar\ProCar.Data\obj\Debug\net5.0\ProCar.Data.genruntimeconfig.cache
